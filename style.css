@@ -4,3 +4,50 @@ img{
     max-width:100%;
 }
 
+
+/* debug */
+
+.container
+{
+    border:10x solid black;
+}
+
+
+/* HEADER */
+
+nav{
+    background-color: rgb(44, 62, 80);
+
+}
+
+.jumbotron{
+    background-color: rgb(26, 188, 156);
+
+    /* debug */
+    min-height: 300px;
+}
+
+.avatar{
+    width: 15%;
+}
+
+/* MAIN */
+
+.portfolio{
+    background-color:white
+
+    /* debug */
+    min-width 300px;
+}
+
+.about{
+    background-color: rgb(26, 188, 156);
+
+    /* debug */
+    min-height: 300px;
+}
+
+.ms_container{
+    width:80%;
+    margin:  0 auto;
+}
