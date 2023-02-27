@@ -40,6 +40,8 @@ nav{
     min-width 300px;
 }
 
+/* about section */
+ 
 .about{
     background-color: rgb(26, 188, 156);
 
@@ -50,4 +52,14 @@ nav{
 .ms_container{
     width:80%;
     margin:  0 auto;
+}
+
+/* contact me section */
+
+.contactme{
+    background-color: white;
+}
+
+.pb-10{
+    padding-bottom: 10rem;
 }
