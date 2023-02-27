@@ -4,40 +4,58 @@ img{
     max-width:100%;
 }
 
+/* GENERAL */
 
-/* debug */
+a{
+    text-decoration: none;
+    color:inherit;
+}
 
-.container
-{
-    border:10x solid black;
+li{
+    list-style-type: none;
 }
 
 
 /* HEADER */
 
-nav{
+.nav-menu{
     background-color: rgb(44, 62, 80);
-    height: 100px;
+    height:70px;
 }
 
-.start,
-.list{
-    line-height: 100px;
-}
+  .ms_container2{
+    width: 90%;
+    margin: 0 auto;
+  }
 
-.list{
-    text-align: right;
+  .list-nav{
+    justify-content: flex-end;
+    margin-bottom: 0;
+    gap: 0.5rem;
+
+    /* da sistemare */
+    /* margin: 0 3.5rem; */
+  
 }
+   
+
+
+
 
 .jumbotron{
     background-color: rgb(26, 188, 156);
 
     /* debug */
-    min-height: 300px;
+    /* min-height: 300px; */
 }
 
 .avatar{
     width: 15%;
+}
+
+.hr20{
+    width:20%;
+    height:3px;
 }
 
 /* MAIN */
