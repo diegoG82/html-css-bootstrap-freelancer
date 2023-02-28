@@ -24,12 +24,12 @@ li{
 }
 
 .ms_container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
-  .ms_container_little{
-    width:80%;
+.ms_container_little{
+    width:60%;
     margin: 0 auto;
 }
 
@@ -72,9 +72,6 @@ hr{
 
 .portfolio{
     background-color:white
-
-    /* debug */
-    min-width 300px;
 }
 
 /* about section */
@@ -91,28 +88,38 @@ hr{
     border-radius: 10px;
 }
 
-
-
-.ms_container{
-    width:80%;
-    margin:  0 auto;
-}
-
 /* contact me section */
 
-/* .contactme{
-    
-} */
-
-.pb-10{
-    padding-bottom: 10rem;
+.ms_btn-send{
+    background-color: rgb(26, 188, 156);
+    color:white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
 }
 
-
+.form-control{
+    border-radius:0;
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+}
 
 /* FOOTER */
 .upper{
     background-color: rgb(58, 84, 109) ;
+}
+
+.rounded-border{
+    border:1px solid white;
+    border-radius:25px;
+    padding: 0.5rem;
+
+}
+
+.start-boot{
+    color: rgb(26, 188, 156);
 }
 
 .bottom{
