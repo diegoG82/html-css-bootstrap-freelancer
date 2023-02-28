@@ -105,6 +105,9 @@ hr{
     border-left:0;
     border-right:0;
 }
+.form-control:focus{
+    display: none;
+}
 
 /* FOOTER */
 .upper{
