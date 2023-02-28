@@ -23,40 +23,50 @@ li{
     height:70px;
 }
 
-  .ms_container2{
+.ms_container{
     width: 90%;
     margin: 0 auto;
   }
+
+  .ms_container_little{
+    width:80%;
+    margin: 0 auto;
+}
 
   .list-nav{
     justify-content: flex-end;
     margin-bottom: 0;
     gap: 0.5rem;
-
-    /* da sistemare */
-    /* margin: 0 3.5rem; */
   
-}
+ }
    
-
-
-
-
 .jumbotron{
     background-color: rgb(26, 188, 156);
-
-    /* debug */
-    /* min-height: 300px; */
 }
+
+div hr{
+    border-top: 3px solid;
+    opacity:unset;
+    border-radius: 10px;
+}
+
+hr{
+    margin:1rem 0;
+    color:inherit;
+    border:0;
+    height: 1px;
+    width:80px;
+}
+.sx{
+    display:flex;
+    justify-content: flex-end;;
+}
+
 
 .avatar{
-    width: 15%;
+    width: 200px;
 }
 
-.hr20{
-    width:20%;
-    height:3px;
-}
 
 /* MAIN */
 
@@ -71,10 +81,17 @@ li{
  
 .about{
     background-color: rgb(26, 188, 156);
-
-    /* debug */
-    min-height: 300px;
 }
+
+.ms_btn-primary{
+    background-color: rgb(26, 188, 156);
+    border:1px solid white;
+    color:white;
+    padding:0.5rem 1rem;   
+    border-radius: 10px;
+}
+
+
 
 .ms_container{
     width:80%;
@@ -83,13 +100,14 @@ li{
 
 /* contact me section */
 
-.contactme{
-    background-color: white;
-}
+/* .contactme{
+    
+} */
 
 .pb-10{
     padding-bottom: 10rem;
 }
+
 
 
 /* FOOTER */
